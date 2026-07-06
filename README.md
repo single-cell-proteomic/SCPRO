@@ -178,19 +178,31 @@ Both modules expose `random_state`. The package sets NumPy, Python, TensorFlow, 
 
 ## Citation
 
-If you use **SCPRO-VI**, please cite:
+If you use **SCPRO-HI**, please cite:
 
 ```bibtex
-@article{SCPROVI2024,
-  title={Explainable Graph Learning for Multimodal Single-Cell Data Integration},
-  author={Mehmet Burak Koca and Fatih Erdogan Sevilgen},
-  journal={bioRxiv},
+@article{Koca2024SCPROHI,
+  title={Integration of single-cell proteomic datasets through distinctive proteins in cell clusters},
+  author={Koca, Mehmet Burak and Sevilgen, Fatih Erdogan},
+  journal={Proteomics},
+  volume={24},
+  pages={2300282},
   year={2024},
-  doi={10.1101/2024.12.06.627151}
+  doi={10.1002/pmic.202300282}
 }
 ```
 
-Please add the final SCPRO-HI citation/DOI here before public release.
+If you use **SCPRO-VI**, please cite:
+
+```bibtex
+@article{Koca2026SCPROVI,
+  title={Explainable graph learning for multimodal single-cell data integration},
+  author={Koca, Mehmet Burak and Sevilgen, Fatih Erdogan},
+  journal={BMC Bioinformatics},
+  year={2026},
+  doi={10.1186/s12859-026-06413-3}
+}
+```
 
 ---
 

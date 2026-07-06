@@ -3,15 +3,29 @@ title: scpro
 authors:
   - family-names: Koca
     given-names: Mehmet Burak
+  - family-names: Sevilgen
+    given-names: Fatih Erdogan
 message: "If you use scpro, please cite the corresponding SCPRO-HI and/or SCPRO-VI papers."
-preferred-citation:
-  type: article
-  title: Explainable Graph Learning for Multimodal Single-Cell Data Integration
-  authors:
-    - family-names: Koca
-      given-names: Mehmet Burak
-    - family-names: Sevilgen
-      given-names: Fatih Erdogan
-  year: 2024
-  doi: 10.1101/2024.12.06.627151
-  journal: bioRxiv
+references:
+  - type: article
+    title: Integration of single-cell proteomic datasets through distinctive proteins in cell clusters
+    authors:
+      - family-names: Koca
+        given-names: Mehmet Burak
+      - family-names: Sevilgen
+        given-names: Fatih Erdogan
+    year: 2024
+    doi: 10.1002/pmic.202300282
+    journal: Proteomics
+    volume: "24"
+    pages: "2300282"
+  - type: article
+    title: Explainable graph learning for multimodal single-cell data integration
+    authors:
+      - family-names: Koca
+        given-names: Mehmet Burak
+      - family-names: Sevilgen
+        given-names: Fatih Erdogan
+    year: 2026
+    doi: 10.1186/s12859-026-06413-3
+    journal: BMC Bioinformatics
