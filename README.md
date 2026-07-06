@@ -1,4 +1,4 @@
-# scpro
+# SCPRO
 
 `scpro` is a clean Python package interface for two SCPRO methods:
 
@@ -205,7 +205,3 @@ If you use **SCPRO-VI**, please cite:
 ```
 
 ---
-
-## License
-
-Add the final project license before publishing to PyPI or GitHub releases.
