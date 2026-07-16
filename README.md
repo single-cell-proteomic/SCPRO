@@ -1,13 +1,9 @@
 # SCPRO
 
-`scpro` is a clean Python package interface for two SCPRO methods:
+`scpro` is a Python package interface for two SCPRO methods:
 
 - **SCPRO-HI**: horizontal integration of single-cell proteomic datasets through distinctive proteins in cell clusters.
 - **SCPRO-VI**: multimodal RNA–protein integration with PPI-aware graph variational inference.
-
-The package is intentionally **method-core only**. Research-era benchmarking scripts, alternative inactive matching functions, MOFA/Mowgli/totalVI comparison wrappers, notebook globals, hard-coded Google Drive paths, and import-time `pip install` side effects were removed from the clean package.
-
-> Status: alpha / research package. The API is designed for reproducible method development and paper-code stabilization before public release.
 
 ---
 
