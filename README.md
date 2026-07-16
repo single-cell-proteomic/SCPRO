@@ -7,33 +7,13 @@
 
 ---
 
-## Design principles
-
-`scpro` keeps the two methods under one package while using the right scientific data container for each method:
-
-| Method | Internal object | Rationale |
-|---|---:|---|
-| `scpro.hi` | `AnnData` | SCPRO-HI integrates horizontally comparable single-cell proteomic datasets. Any supported external input is converted to one or more `AnnData` objects internally. |
-| `scpro.vi` | `MuData` | SCPRO-VI is naturally multimodal: RNA and protein modalities are separate but share cells. Combined `AnnData` inputs can be converted to `MuData`. |
-
-The package writes outputs into standard single-cell containers:
-
-```text
-SCPRO-HI: adata.obsm["X_scpro_hi"]
-SCPRO-VI: mdata.obsm["X_scpro_vi"]
-```
-
-Graph and similarity matrices are stored in `.obsp`/`.uns` rather than non-standard `.obsm` slots.
-
----
-
 ## Installation
 
 For local development:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/scpro.git
-cd scpro
+git clone https://github.com/single-cell-proteomic/SCPRO.git
+cd SCPRO
 pip install -e ".[hi,vi]"
 ```
 
